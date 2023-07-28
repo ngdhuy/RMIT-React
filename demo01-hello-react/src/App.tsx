@@ -1,7 +1,6 @@
-
-
 // import css file
 import './App.css'
+import Content from './components/Contents'
 import Footer from './components/Footer'
 
 // import components to App in main component
@@ -16,6 +15,7 @@ const App : React.FC = () => {
   return (
     <>
       <Header title='Welcome to Hello ReactJS project' />
+      <Content />
       <Footer message= {msg_footer} />
     </>
   )
