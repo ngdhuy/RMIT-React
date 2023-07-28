@@ -18,7 +18,7 @@ class Header extends React.Component<Props> {
     return (
       <header>
         <h1>{ this.props.title}</h1>
-        <img src={reactLogo} className='logo react' />
+        <img src={reactLogo} className='logo' />
       </header>
     )
   }
