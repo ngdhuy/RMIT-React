@@ -1,27 +1,22 @@
-# React + TypeScript + Vite
+# Development Invoice application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Requirement
 
-Currently, two official plugins are available:
+Design application look like this picture: 
+   ![invoice ui](https://react.dev/images/docs/s_thinking-in-react_ui.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## UI Structure
 
-## Expanding the ESLint configuration
+The application has structure UI look like:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![invoice ui structur](https://react.dev/images/docs/s_thinking-in-react_ui_outline.png)
 
-- Configure the top-level `parserOptions` property like this:
+1. FilterableProductTable (grey) contains the entire app.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+2. SearchBar (blue) receives the user input.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. ProductTable (lavender) displays and filters the list according to the user input.
+
+4. ProductCategoryRow (green) displays a heading for each category.
+
+5. ProductRow (yellow) displays a row for each product.
