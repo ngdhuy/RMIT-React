@@ -27,7 +27,7 @@ const About : React.FC = () => {
       <Content>
         <H1>Stylish Portfolio is the perfect theme for your next project</H1>
         <H3>This theme feature a flexible, UX friendly sidebar menu and stock photo from our friends at Unsplash!</H3>
-        <A href="/service">Find out more</A>
+        <A href="/services">Find out more</A>
       </Content>
     </Section>
   )

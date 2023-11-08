@@ -31,7 +31,7 @@ const Home : React.FC = () => {
       <Content>
         <H1>SEstudio Portfolio</H1>
         <H3>Startup for future</H3>
-        <A href="#about">Find out more</A>
+        <A href="/about">Find out more</A>
       </Content>
     </Section>
   )
