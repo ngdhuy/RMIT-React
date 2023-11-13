@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
+import Home     from './pages/Home'
+import About    from './pages/About'
 import Services from './pages/Services'
-import Callout from './pages/Callout'
+import Callout  from './pages/Callout'
+import Portfolio from './pages/Portfolio'
 
 const App : React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App : React.FC = () => {
         <Route path='/about' element={<About/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/callout' element={<Callout/>}/>
+        <Route path='/portfolio' element={<Portfolio/>}/>
       </Routes>
     </Router>
   )
