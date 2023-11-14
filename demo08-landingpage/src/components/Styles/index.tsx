@@ -29,6 +29,12 @@ export const H1 = styled.h1 `
   ${HeaderStyle}
 `
 
+export const H2 = styled.h2 `
+  color: #ffffff;
+  font-size: 3rem; 
+  font-weight: 700; 
+`
+
 export const H3 = styled.h3 `
   font-size: 1.5rem;
   font-style: italic;
